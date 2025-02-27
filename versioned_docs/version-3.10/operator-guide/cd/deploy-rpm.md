@@ -1,3 +1,9 @@
+---
+title: "Deploy RPM Packages"
+description: "Learn how to deploy RPM packages in KubeRocketCI using both default and AWX approaches with Ansible integration for Linux distributions."
+sidebar_label: "Deploy RPM Packages"
+---
+
 # Deploy RPM Packages
 
 <head>
