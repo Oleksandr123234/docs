@@ -1,3 +1,9 @@
+---
+title: "Manual Approval in Pipelines"
+description: "Implement manual approval workflows in KubeRocketCI pipelines to control application promotion across environments and ensure only verified changes reach production."
+sidebar_label: "Manual Approval in Pipelines"
+---
+
 # Manual Approval in Pipelines
 
 <head>
@@ -50,7 +56,7 @@ If the approval is rejected, the pipeline status will be failed:
 
   ![Manual approve rejected](../../assets/operator-guide/manual_approve_rejected.png "Manual approve rejected")
 
-If you don’t make a selection within the pipeline processing time, which is **60 minutes** by default, you’ll see a crossed clock icon as the task run status, indicating that the pipeline has timed out:
+If you don't make a selection within the pipeline processing time, which is **60 minutes** by default, you'll see a crossed clock icon as the task run status, indicating that the pipeline has timed out:
 
   ![Approval timed out](../../assets/operator-guide/manual_approve_timeout.png "Approval timed out")
 
