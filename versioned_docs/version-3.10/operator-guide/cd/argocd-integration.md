@@ -1,3 +1,9 @@
+---
+title: "Argo CD Integration"
+description: "Learn how to integrate Argo CD with KubeRocketCI for continuous delivery, including configuration steps and optional features like remote cluster deployment."
+sidebar_label: "Argo CD Integration"
+---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -44,16 +50,16 @@ edp-grub
 ├── LICENSE
 ├── README.md
 ├── apps                      ### All Argo CD Applications are stored here
-│   ├── grub-argocd.yaml      # Application that provisions Argo CD Resources - Argo Projects (KubeRocketCI Tenants)
-│   └── grub-keycloak.yaml    # Application that provisions Keycloak Resources - Argo CD Groups (KubeRocketCI Tenants)
+│   ├── grub-argocd.yaml      # Application that provisions Argo CD Resources - Argo Projects (KubeRocketCI Tenants)
+│   └── grub-keycloak.yaml    # Application that provisions Keycloak Resources - Argo CD Groups (KubeRocketCI Tenants)
 ├── apps-configs
-│   └── grub
-│       ├── argocd            ### Argo CD resources definition
-│       │   └── edp.yaml
-│       └── keycloak          ### Keycloak resources definition
-│           └── edp.yaml
+│   └── grub
+│       ├── argocd            ### Argo CD resources definition
+│       │   └── edp.yaml
+│       └── keycloak          ### Keycloak resources definition
+│           └── edp.yaml
 ├── bootstrap
-│   └── root.yaml             ### Root application in App of Apps, which provision Applications from /apps
+│   └── root.yaml             ### Root application in App of Apps, which provision Applications from /apps
 └── examples                  ### Examples
     └── tenant
         └── edp-petclinic.yaml
