@@ -1,3 +1,9 @@
+---
+title: "Customize Environment Cleanup"
+description: "Learn how to customize environment cleanup in KubeRocketCI using custom clean pipelines, including creation of TriggerTemplate, Pipeline, and Task resources."
+sidebar_label: "Customize Environment Cleanup"
+---
+
 # Customize Environment Cleanup
 
 <head>
