@@ -1,3 +1,9 @@
+---
+title: "Deployment Strategies Overview"
+description: "Explore KubeRocketCI's deployment strategies, including auto-deploy and auto-stable trigger types, to enhance application stability and manage deployment flows."
+sidebar_label: "Deployment Strategies"
+---
+
 # Deployment Strategies Overview
 
 <head>
